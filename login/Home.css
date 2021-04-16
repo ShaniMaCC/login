@@ -1,0 +1,246 @@
+.section-1 {
+  min-height: 894px;
+}
+
+.section-1 .shape-1 {
+  width: calc(((100% - 1140px) / 2) + 346px);
+  left: 0;
+  right: auto;
+}
+
+.section-1 .text-1 {
+  font-weight: 150; /*標題寬度*/
+  font-size: 2.5rem;
+  text-transform: none;
+  margin: 49px calc(((100% - 1140px) / 2) + 552px) 0 calc(((100% - 1140px) / 2) + 183px);
+}
+
+.section-1 .layout-wrap-1 {
+  width: 1140px;
+  margin: 48px auto 60px;
+}
+
+.section-1 .layout-cell-1 {
+  min-height: 665px;
+  background-image: none;
+}
+
+.section-1 .container-layout-1 {
+  padding: 30px;
+}
+
+.section-1 .text-2 {
+  font-weight: 300;
+  text-transform: none;
+  margin: 63px 0 0;
+}
+
+.section-1 .form-1 {
+  height: 207px;
+  width: 567px;
+  margin: 78px 0 0;
+}
+
+.section-1 .form-group-2 {
+  margin-left: 0;
+}
+
+.section-1 .btn-1 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+
+.section-1 .btn-2 {
+  border-style: solid;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: -50px 72px 0 auto;
+}
+
+.section-1 .text-3 {
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin: -67px 62px 0 402px;
+}
+
+.section-1 .image-1 {
+  min-height: 665px;
+  background-image: url("images/7989457890a313f661de9b04ced2f8318e6234be0b0c3ec3ad6c431fdb1a2a725d88aedef741dc117d671b70d6907cc2e149c8554faab3981044ed_1280.jpg");
+  background-position: 50% 50%;
+}
+
+.section-1 .container-layout-2 {
+  padding: 30px;
+}
+
+.section-1 .text-4 {
+  font-size: 0.625rem;
+  margin: 618px -15px -30px;
+}
+
+.section-1 .btn-3 {
+  border-style: none none solid;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .section-1 {
+    min-height: 777px;
+  }
+
+  .section-1 .shape-1 {
+    width: calc(((100% - 940px) / 2) + 346px);
+  }
+
+  .section-1 .text-1 {
+    margin-right: calc(((100% - 940px) / 2) + 452px);
+    margin-left: calc(((100% - 940px) / 2));
+  }
+
+  .section-1 .layout-wrap-1 {
+    width: 940px;
+  }
+
+  .section-1 .layout-cell-1 {
+    min-height: 548px;
+  }
+
+  .section-1 .text-2 {
+    margin-top: 0;
+  }
+
+  .section-1 .form-1 {
+    margin-top: 38px;
+    width: 457px;
+  }
+
+  .section-1 .btn-2 {
+    margin-right: 0;
+  }
+
+  .section-1 .text-3 {
+    margin-right: -30px;
+    margin-left: 306px;
+  }
+
+  .section-1 .image-1 {
+    min-height: 548px;
+  }
+
+  .section-1 .text-4 {
+    margin: 249px 0 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-1 {
+    min-height: 633px;
+  }
+
+  .section-1 .shape-1 {
+    width: calc(((100% - 720px) / 2) + 346px);
+  }
+
+  .section-1 .text-1 {
+    margin-right: calc(((100% - 720px) / 2));
+    margin-left: calc(((100% - 720px) / 2));
+  }
+
+  .section-1 .layout-wrap-1 {
+    width: 720px;
+  }
+
+  .section-1 .layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .section-1 .form-1 {
+    width: 336px;
+  }
+
+  .section-1 .text-3 {
+    margin-left: 246px;
+  }
+
+  .section-1 .image-1 {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-1 {
+    min-height: 1379px;
+  }
+
+  .section-1 .shape-1 {
+    height: 534px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+  }
+
+  .section-1 .text-1 {
+    margin-top: -480px;
+    margin-left: calc(((100% - 540px) / 2));
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .section-1 .layout-wrap-1 {
+    width: 540px;
+  }
+
+  .section-1 .container-layout-1 {
+    padding-right: 10px;
+    padding-left: 40px;
+  }
+
+  .section-1 .image-1 {
+    min-height: 505px;
+  }
+
+  .section-1 .container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/*螢幕最小*/
+@media (max-width: 575px) {
+  .section-1 {
+    min-height: 1192px;
+  }
+
+  .section-1 .text-1 /*log in or sign up*/
+  {
+    font-size: 1.5rem;
+    margin-left: calc(((100% - 360px) / 2)); /*調整標題位置*/
+    margin-right: calc(((100% - 500px) / 2));
+  }
+
+  .section-1 .layout-wrap-1 {
+    width: 340px;
+  }
+
+  .section-1 .container-layout-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-1 .form-1 {
+    width: 320px;
+  }
+
+  .section-1 .text-3 {
+    margin-left: 146px;
+  }
+
+  .section-1 .image-1 {
+    
+    margin-top: 40px;
+  }
+}
